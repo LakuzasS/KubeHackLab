@@ -1,4 +1,4 @@
-# Documentation de Configuration de Kubernetes sur Ubuntu 24.04 🚀
+# Documentation de Configuration de Kubernetes avec k8s sur Ubuntu 24.04 (amd64) 🚀
 
 ## 🏗️ Architecture actuelle du cluster
 
@@ -138,7 +138,7 @@ sudo apt install -y containerd.io
 ## 🌀 Initialiser le Cluster Kubernetes :
 
 ```bash
-sudo kubeadm init --apiserver-advertise-address=172.30.0.43 --pod-network-cidr=10.68.11.0/24
+sudo kubeadm init --apiserver-advertise-address=192.168.0.20 --pod-network-cidr=10.68.11.0/24
 ```
 1. 👤 Passer en Mode **Utilisateur Normal** :
 
@@ -250,7 +250,7 @@ sudo kubeadm init --apiserver-advertise-address=172.30.0.43 --pod-network-cidr=1
 3. 📥 **Exécuter** la commande reçue sur le **nœud worker** :
 
     ```bash
-    kubeadm join 172.30.0.43:6443 --token uvtz2h.azomw8u4o2a55u57 --discovery-token-ca-cert-hash sha256:b5a3b73437440231910e77e9d76fd3e80b813d820ef39212b6e19c304608ab69
+    kubeadm join 192.168.0.20:6443 --token uvtz2h.azomw8u4o2a55u57 --discovery-token-ca-cert-hash sha256:b5a3b73437440231910e77e9d76fd3e80b813d820ef39212b6e19c304608ab69
     ```
 4. 🔍 **Vérifier** la présence du nœud :
    
@@ -419,7 +419,7 @@ https://raw.githubusercontent.com/kubernetes/dashboard/v${VER}/aio/deploy/recomm
 ✉️ **Accéder au dashboard Kubernetes** à partir d’un navigateur via l’adresse IP de n'importe quel nœud du cluster sur le port `30001/tcp` en HTTPS.
 
 - **Exemples d’accès** :
-    - [Dashboard noeud maître](https://172.30.0.43:30001)
-    - [Dashboard noeud worker](https://172.30.0.45:30001)
+    - [Dashboard noeud maître](https://192.168.0.20:30001)
+    - [Dashboard noeud worker](https://192.168.0.21:30001)
 
 ---
