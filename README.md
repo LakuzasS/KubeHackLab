@@ -61,7 +61,7 @@ Passionné par la **cybersécurité**, Kubernetes et le partage de connaissances
 
 ## 📬 Contact
 - **GitHub :** [LakuzasS](https://github.com/LakuzasS)
-- **LinkedIn :** [Ton Profil LinkedIn](https://www.linkedin.com/in/maxime-brodin/)
+- **LinkedIn :** [Maxime Brodin](https://www.linkedin.com/in/maxime-brodin/)
 
 ---
 
