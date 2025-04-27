@@ -421,5 +421,3 @@ https://raw.githubusercontent.com/kubernetes/dashboard/v${VER}/aio/deploy/recomm
 - **Exemples d’accès** :
     - [Dashboard noeud maître](https://192.168.0.20:30001)
     - [Dashboard noeud worker](https://192.168.0.21:30001)
-
----
