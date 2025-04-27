@@ -7,6 +7,6 @@ echo "🚀 Déploiement de Juice Shop..."
 kubectl apply -f DEPLOYMENTS/juice-shop-deployment.yaml
 
 echo "🔐 Configuration du Dashboard sécurisé..."
-kubectl apply -f DEPLOYMENTS/dashboard-rbac.yaml
+kubectl apply -f DEPLOYMENTS/dashboard-admin-user.yaml
 
 echo "✅ Déploiement terminé !"
