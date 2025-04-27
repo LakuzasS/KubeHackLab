@@ -11,7 +11,7 @@ Assurez-vous que **Homebrew** est déjà installé sur votre système avant de c
    - Suivez ce lien pour télécharger et installer Docker Desktop :  
      👉 [Installer Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/)
    - **⚠️ Note importante** : Choisissez la version adaptée à votre puce :
-     - **Apple Silicon (M1/M2)** ou **Intel Chip**.
+     - **Apple Silicon (M1/M2/M3/M4)** ou **Intel Chip**.
    - Une fois installé, lancez Docker Desktop et configurez-le avec les **paramètres par défaut**, puis cliquez sur "Skip" jusqu'à atteindre le **dashboard principal**.
 
 2. **Homebrew** doit être installé pour installer Kind et d'autres outils :
