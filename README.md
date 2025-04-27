@@ -3,6 +3,12 @@
 Bienvenue dans le **Kubernetes Pentest Lab**, un projet conçu pour démontrer la puissance de Kubernetes 🐳 tout en explorant les aspects de sécurité 🔒. Ce laboratoire est parfait pour tester vos compétences en cybersécurité et apprendre à sécuriser des environnements Kubernetes. 
 
 ---
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+![Made with](https://img.shields.io/badge/Made%20with-Kubernetes-326ce5?logo=kubernetes&logoColor=white)
+
+---
 
 ## 🎯 Objectifs
 - **Apprendre :** Découvrir les bases de Kubernetes tout en explorant les failles de sécurité.
