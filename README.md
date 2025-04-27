@@ -1,6 +1,6 @@
 # 🚀 Kubernetes Pentest Lab 🔐
 
-Bienvenue dans le **Kubernetes Pentest Lab**, un projet conçu pour démontrer la puissance de Kubernetes 🐳 tout en explorant les aspects de sécurité 🔒. Ce laboratoire est parfait pour tester vos compétences en cybersécurité et apprendre à sécuriser des environnements Kubernetes. 
+Bienvenue dans le **Kubernetes Pentest Lab**, un projet conçu pour démontrer la puissance de Kubernetes 🐳 tout en explorant les aspects de sécurité 🔒. Ce laboratoire est parfait pour tester ses compétences en cybersécurité et apprendre à sécuriser des environnements Kubernetes. 
 
 ---
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -11,7 +11,7 @@ Bienvenue dans le **Kubernetes Pentest Lab**, un projet conçu pour démontrer l
 ---
 
 ## 🎯 Objectifs
-- **Apprendre :** Découvrir les bases de Kubernetes tout en explorant les failles de sécurité.
+- **Apprendre :** Approfondir Kubernetes tout en explorant les failles de sécurité.
 - **Tester :** Exploiter un cluster Kubernetes vulnérable pour comprendre comment les attaques peuvent se produire.
 - **Sécuriser :** Mettre en place des bonnes pratiques pour sécuriser un cluster Kubernetes.
 
@@ -33,7 +33,7 @@ Voici ce que contient le lab :
 ---
 
 ## 🌟 Pourquoi ce projet ?
-Ce projet montre que tu maîtrises :
+Ce projet montre la maîtrise de :
 1. **Kubernetes :** La création, gestion et sécurisation de clusters.
 2. **Cybersécurité :** Identifier et corriger des vulnérabilités.
 3. **Documentation :** Partager des connaissances techniques avec clarté.
@@ -42,8 +42,14 @@ Ce projet montre que tu maîtrises :
 
 ## ⚙️ Installation et Configuration
 ### Prérequis
-- 🖥️ **VMware Fusion** ou un autre outil pour créer des machines virtuelles.
+
+### 🖥️ Windows / Linux
+- 📟 **VMware Fusion** ou un autre outil pour créer des machines virtuelles.
 - 📦 **Ubuntu 24.04** installé sur les VMs.
+
+### 💻 MacOS
+- 📺 **Homebrew** installé sur le système
+- 🐳 **Docker Desktop** pour supporter Kind
 
 ### Étapes
 1. **Créer un cluster Kubernetes :** Suivez les étapes documentées pour installer Kubernetes sur Ubuntu.
@@ -59,17 +65,6 @@ Ce projet montre que tu maîtrises :
 
 ---
 
-## ✨ Auteur
-👨‍💻 **LakuzasS**  
-Passionné par la **cybersécurité**, Kubernetes et le partage de connaissances. 🚀
-
----
-
 ## 📬 Contact
 - **GitHub :** [LakuzasS](https://github.com/LakuzasS)
 - **LinkedIn :** [Maxime Brodin](https://www.linkedin.com/in/maxime-brodin/)
-
----
-
-## 🌐 Contributions
-Les contributions sont les bienvenues ! N'hésitez pas à soumettre des pull requests ou à ouvrir des issues. 🚀
